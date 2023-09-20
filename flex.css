@@ -1,0 +1,13 @@
+.parent {
+  display: flex;
+  background-color: coral;
+  width: 100%;
+  height: 700px;
+  padding: 6px;
+}
+.child {
+  flex: 11%;
+  text-align: center;
+  font-size: large;
+  height: 97%;
+}
