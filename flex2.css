@@ -1,0 +1,49 @@
+body {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-around;
+}
+.contener {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 280px;
+  height: 400px;
+  background-color: white;
+  border-radius: 30px;
+}
+.child {
+  height: 90px;
+  align-content: center;
+  display: flex;
+  box-shadow: 3px 2px 5px;
+}
+.sub {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+}
+.circle {
+  flex: 1;
+  height: 80px;
+  border: gray 1px solid;
+  width: 80px;
+  border-radius: 50%;
+  margin: 5px;
+  background-image: url("https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.user {
+  height: inherit;
+}
+p {
+  margin-block-start: 16px;
+  margin-block-end: 3px;
+}
+.img {
+  height: fit-content;
+}
